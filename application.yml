@@ -6,8 +6,18 @@ lavalink:
   server:
     password: "youshallnotpass"
 
+    sources:
+      youtube: false
+
 plugins:
-  - dependency: "dev.lavalink.youtube:youtube-plugin:1.13.2"
+  youtube:
+    enabled: true
+    allowSearch: true
+    allowDirectVideoIds: true
+    allowDirectPlaylistIds: true
+
+  dependencies:
+    - dependency: "dev.lavalink.youtube:youtube-plugin:1.13.2"
 
 logging:
   level:
