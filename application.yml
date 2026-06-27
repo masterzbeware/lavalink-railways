@@ -3,6 +3,9 @@ server:
   address: 0.0.0.0
 
 lavalink:
+  plugins:
+    - dependency: "dev.lavalink.youtube:youtube-plugin:1.13.2"
+
   server:
     password: "youshallnotpass"
 
@@ -15,9 +18,6 @@ plugins:
     allowSearch: true
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
-
-  dependencies:
-    - dependency: "dev.lavalink.youtube:youtube-plugin:1.13.2"
 
 logging:
   level:
