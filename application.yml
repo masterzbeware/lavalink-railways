@@ -6,7 +6,8 @@ lavalink:
   server:
     password: "youshallnotpass"
 
-plugins: []
+plugins:
+  - dependency: "dev.lavalink.youtube:youtube-plugin:1.13.2"
 
 logging:
   level:
